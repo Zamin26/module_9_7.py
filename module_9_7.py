@@ -12,10 +12,10 @@ def is_prime(func):
 
 @is_prime           # декоратор
 def sum_three(*args):
-    summ = 0
+    summ_number = 0
     for i in args:
-        summ += i
-    return summ
+        summ_number += i
+    return summ_number
 
 
 result = sum_three(2, 3, 6)
